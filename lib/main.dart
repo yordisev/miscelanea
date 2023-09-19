@@ -6,7 +6,7 @@ import 'package:miscelanea/routers/rutas.dart';
 void main() {
   runApp(
     ProviderScope(
-      child: MainApp(),
+      child: const MainApp(),
     ),
   );
 }
