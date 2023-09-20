@@ -12,8 +12,8 @@ class ItemMenu {
 final menuItems = <ItemMenu>[
   ItemMenu('Giroscopio', Icons.download, '/giroscopio'),
   ItemMenu('Biometrico', Icons.fingerprint, '/biometrico'),
-  ItemMenu('Googleadmob', Icons.gpp_good_outlined, '/anuncios'),
-  ItemMenu('Giroscopio', Icons.download, '/giroscopio'),
+  ItemMenu('AdFullScreen', Icons.gpp_good_outlined, '/anuncios'),
+  ItemMenu('Rewarded', Icons.forest_sharp, '/anuncios2'),
   ItemMenu('Giroscopio', Icons.download, '/giroscopio'),
 ];
 

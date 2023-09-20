@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:miscelanea/config/inicializarads.dart';
 import 'package:miscelanea/config/temas.dart';
 import 'package:miscelanea/routers/rutas.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Admobplugin.initialize();
   runApp(
     ProviderScope(
       child: const MainApp(),

@@ -14,7 +14,11 @@ final appRutas = GoRouter(
     ),
     GoRoute(
       path: '/anuncios',
-      builder: (context, state) => AnunciosScreen(),
+      builder: (context, state) => AdFullScreen(),
+    ),
+    GoRoute(
+      path: '/anuncios2',
+      builder: (context, state) => RewardedScreen(),
     ),
     GoRoute(
       path: '/permisos',

@@ -1,3 +1,4 @@
+export 'package:miscelanea/screens/anuncios2.dart';
 export 'package:miscelanea/screens/anuncios.dart';
 export 'package:miscelanea/screens/biometrico.dart';
 export 'package:miscelanea/screens/permisos.dart';
